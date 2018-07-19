@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpcLib", "src\RpcLib\RpcLib
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpcLib.Abstractions", "src\Rpclib.Abstractions\RpcLib.Abstractions.csproj", "{148AC162-376D-4FC9-A7FA-BE3C640ABE74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1ABFD67-DE4F-4D1D-A05F-5C282BCA14E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{815F16C5-6D07-403B-8998-DFC60A28B1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcLib.Tests", "tests\RpcLib.Tests\RpcLib.Tests.csproj", "{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{148AC162-376D-4FC9-A7FA-BE3C640ABE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{148AC162-376D-4FC9-A7FA-BE3C640ABE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{148AC162-376D-4FC9-A7FA-BE3C640ABE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31BF95BC-E8CB-4DC1-9663-3B88B0AD90C8} = {B1ABFD67-DE4F-4D1D-A05F-5C282BCA14E9}
+		{148AC162-376D-4FC9-A7FA-BE3C640ABE74} = {B1ABFD67-DE4F-4D1D-A05F-5C282BCA14E9}
+		{D1DCA73C-2520-4FA2-9B0B-AE7C003DAF76} = {815F16C5-6D07-403B-8998-DFC60A28B1CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DA062E0-9C2C-4036-ACF5-F13293730121}
