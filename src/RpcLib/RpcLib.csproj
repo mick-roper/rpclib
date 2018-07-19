@@ -6,4 +6,8 @@
     <RootNamespace>RpcLib</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rpclib.Abstractions\RpcLib.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
