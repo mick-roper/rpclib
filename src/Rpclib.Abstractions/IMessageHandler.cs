@@ -5,13 +5,10 @@ using System.Threading.Tasks;
 
 namespace RpcLib.Abstractions
 {
-    public interface IMessageHandler<TMessage> where TMessage : IMessage
+    public interface IMessageHandler
     {
-        /// <summary>
-        /// Handles a message asynchronously
-        /// </summary>
-        /// <param name="message">The message</param>
-        /// <returns></returns>
-        Task<IMessage> HandleMessageAsync(TMessage message);
+        string TargetType { get; }
+
+        Task<IMessage> HandleMessageAsync(IMessage message);
     }
 }

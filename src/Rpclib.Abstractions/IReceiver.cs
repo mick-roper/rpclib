@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RpcLib.Abstractions
 {
     public interface IReceiver
     {
-        Action<IMessage> OnMessageReceived { get; }
+        Task ReceiveAsync(Action onMessageReceived);
     }
 }
