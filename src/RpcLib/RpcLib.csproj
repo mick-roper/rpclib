@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RpcLib</AssemblyName>
+    <RootNamespace>RpcLib</RootNamespace>
   </PropertyGroup>
 
 </Project>
