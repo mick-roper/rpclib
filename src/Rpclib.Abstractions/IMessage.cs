@@ -15,5 +15,6 @@ namespace RpcLib.Abstractions
         string ReplyTo { get; }
         string Type { get; }
         byte[] Payload { get; }
+        Appendable<string> History { get; }
     }
 }
